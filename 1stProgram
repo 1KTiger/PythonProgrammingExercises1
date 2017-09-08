@@ -1,0 +1,17 @@
+name = input("Whats your name")
+age = int( input("please enter your age " + name) )
+livesin = input ("Do yo live in london?")
+
+if (age<19 and livesin=="yes" or livesin=="Yes"):
+  print("Good news, you have been accepted!")
+else:
+  print("Try somewhere else :)")
+
+
+print('Good luck in life ' + name) 
+wish1 = input("Do you have any question " + name)
+if (wish1 == "yes" or wish1 == "Yes"):
+ print("Ok, whats your question?"  )
+else:
+  print("Ok bye then")
+  exit()
